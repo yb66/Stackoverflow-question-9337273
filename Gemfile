@@ -2,8 +2,8 @@
 source "http://rubygems.org"
 
 
-gem "thin", "~>1.3.1"
 gem "sinatra", "1.3.1", :require => "sinatra/base"
+gem "sinatra-partial", "0.1.1"
 gem "json"
 
 gem "haml", "~>3.1"
@@ -20,5 +20,4 @@ group :development do
   gem "guard-coffeescript"
   gem "rb-fsevent"
   gem "growl"
-  gem "pry", "~> 0.9.8.2"
 end
